@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div>
-        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>BEACHES.</h1>
+        <h1 onClick={handleNav} className={logo ? "hidden" : "block hover:cursor-pointer"}>BEACHES.</h1>
       </div>
       <div>
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex hover:cursor-pointer">
           <li>Home</li>
           <li>Destinations</li>
           <li>Travel</li>
@@ -26,7 +26,7 @@ const Navbar = () => {
           <li>Book</li>
         </ul>
       </div>
-      <div className="hidden md:flex">
+      <div className="hidden md:flex hover:cursor-pointer">
       <BiSearch className="mr-2" size={20} />
         <BsPerson size={20} />
       </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <div onClick={handleNav} className={nav ? "text-black absolute left-0 top-0 w-full bg-gray-100/90 px-4 py-7 flex flex-col" : "absolute left-[-100%]"}>
-        <ul>
+        <ul className="hover:cursor-pointer">
           <h1>BEACHES.</h1>
           <li className="border-b">Home</li>
           <li className="border-b">Destinations</li>

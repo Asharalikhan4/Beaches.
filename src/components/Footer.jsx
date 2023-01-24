@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className='w-full bg-gray-100 py-16'>
       <div className='max-w-[1240px] mx-auto flex flex-col px-4'>
-        <div className='sm:flex text-center justify-between items-center'>
+        <div className='sm:flex text-center justify-between items-center hover:cursor-pointer'>
           <h1>BEACHES.</h1>
           <div className='flex justify-between w-full sm:max-w-[280px] my-4'>
             <FaFacebook className='icon' />
@@ -21,7 +21,7 @@ const Footer = () => {
             <FaInstagram className='icon' />
           </div>
         </div>
-        <div className='flex justify-between'>
+        <div className='flex justify-between hover:cursor-pointer'>
           <ul className='lg:flex'>
             <li>About</li>
             <li>Partnerships</li>
