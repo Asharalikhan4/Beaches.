@@ -1,5 +1,5 @@
 # Beaches.
-Check out this website at - https://beaches-gold.vercel.app/
+- Check out this website at - https://beaches-gold.vercel.app/
 
 # Technologies
 - Vite + React
