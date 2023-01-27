@@ -8,5 +8,5 @@
 ## Command to setup this project on your local machine
 - npm i - install dependencies
 - npm run dev - run the development server
-- npm run build - build the production website
+- npm run build - build website for production
 
